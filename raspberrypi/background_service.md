@@ -3,8 +3,8 @@
 sudo vi /lib/systemd/system/NameofYourService.service
 ```
 
-*Then add:*
-Edit the *WorkingDirectory* and the *ExecStart* locations.
+***Then add:***
+Edit the ***WorkingDirectory*** and the ***ExecStart*** locations.
 
 ```
 [Unit]
