@@ -41,7 +41,8 @@ sudo systemctl disable NameofYourService.service
 
 <H4>To see the LOG</H4>
 
-```sudo journalctl -fu NameofYourService.service
+```
+sudo journalctl -fu NameofYourService.service
 ```
 
 
