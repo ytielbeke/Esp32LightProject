@@ -18,7 +18,7 @@ then connect to the Database:
 
 ```
 mysql.connector.connect(
-  host="1192.168.2.190",
+  host="192.168.2.190",
   user="mqtt_handler",
   password="MQTT"
 )
