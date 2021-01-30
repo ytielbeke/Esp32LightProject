@@ -1,9 +1,12 @@
 <H3>To setup an service</H3>
 
-```sudo vi /lib/systemd/system/NameofYourService.service```
+```
+sudo vi /lib/systemd/system/NameofYourService.service
+```
 
 
 ***Then add:***
+
 Edit the ***WorkingDirectory*** and the ***ExecStart*** locations.
 
 ```
@@ -24,6 +27,7 @@ WantedBy=multi-user.target
 ```
 
 <H3>Start the service</H3>
+
 ```
 sudo systemctl enable NameofYourService.service
 sudo systemctl start NameofYourService.service
@@ -36,6 +40,7 @@ sudo systemctl disable NameofYourService.service
 ```
 
 <H4>To see the LOG</H4>
+
 ```sudo journalctl -fu NameofYourService.service
 ```
 
