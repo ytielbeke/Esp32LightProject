@@ -21,3 +21,20 @@ Open MariaDB as root:
 sudo mysql -u root -p
 ```
 
+Create a database
+
+```
+CREATE DATABASE sensors;
+```
+
+Create a user
+
+```
+CREATE USER 'username'@'localhost' IDENTIFIED BY 'Password';
+```
+
+give the user permisions to edit all the tables;
+
+```
+GRANT ALL PRIVILEGES ON sensors.* TO 'username'@'localhost';
+```
