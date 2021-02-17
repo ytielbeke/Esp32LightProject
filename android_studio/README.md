@@ -1,0 +1,19 @@
+<H1>Fuctions you can use</H1>
+
+First add the mqtt.java to your file:
+
+```JAVA
+
+ mqtt mqtt = new mqtt(getApplicationContext());
+ ```
+ 
+ type: 
+ 
+ ```JAVA
+ 
+ mqtt.setCallback(new MqttCallbackExtended(){
+ 
+ ```
+ to use the callback function. You get four posible actions.
+ 
+ 
