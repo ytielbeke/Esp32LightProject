@@ -14,12 +14,9 @@ First add the mqtt.java to your file:
  mqtt.setCallback(new MqttCallbackExtended(){
  
  ```
- to use the callback function. You get four posible actions.
+ You get four posible actions.
  
- 
- 
- ***Publish function: ***
- 
+  **Publish function: **
  
  ```JAVA
  
