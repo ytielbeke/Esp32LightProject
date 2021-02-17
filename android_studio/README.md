@@ -20,6 +20,7 @@ First add the mqtt.java to your file:
  
  **Publish function: **
  
+ 
  ```JAVA
  
  mqtt.publish( <topic> , <payload> );
