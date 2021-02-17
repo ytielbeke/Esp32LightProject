@@ -16,7 +16,7 @@ First add the mqtt.java to your file:
  ```
  You get four posible actions.
  
-  **Publish function: **
+  **Publish function:**
  
  ```JAVA
  
