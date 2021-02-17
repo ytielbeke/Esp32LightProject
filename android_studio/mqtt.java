@@ -13,6 +13,8 @@ import org.eclipse.paho.client.mqttv3.MqttConnectOptions;
 import org.eclipse.paho.client.mqttv3.MqttException;
 import org.eclipse.paho.client.mqttv3.MqttMessage;
 
+import java.io.UnsupportedEncodingException;
+
 public class mqtt {
     public MqttAndroidClient mqttAndroidClient;
 
@@ -97,6 +99,17 @@ public class mqtt {
         } catch (MqttException ex) {
             System.err.println("Exception whilst subscribing");
             ex.printStackTrace();
+        }
+    }
+
+    public void publish(String topic, String payload){
+        byte[] encodePayload = new byte[0];
+        try{
+            encodePayload = payload.getBytes("UTF-8");
+            MqttMessage message = new MqttMessage(encodePayload);
+            mqttAndroidClient.publish(topic, message);
+        } catch (UnsupportedEncodingException | MqttException e) {
+            e.printStackTrace();
         }
     }
 }
