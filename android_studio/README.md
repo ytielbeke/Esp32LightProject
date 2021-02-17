@@ -7,7 +7,7 @@ First add the mqtt.java to your file:
  mqtt mqtt = new mqtt(getApplicationContext());
  ```
  
- type: 
+**Callback function:** 
  
  ```JAVA
  
@@ -15,5 +15,15 @@ First add the mqtt.java to your file:
  
  ```
  to use the callback function. You get four posible actions.
+ 
+ 
+ **Publish function: **
+ 
+ ```JAVA
+ 
+ mqtt.publish( <topic> , <payload> );
+ 
+ ```
+ 
  
  
