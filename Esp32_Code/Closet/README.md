@@ -2,6 +2,8 @@
 
 The Closet Esp32 has the following pinout
 
+| PIN | Connected |
+| --- | --- | 
 | D23	|	Room movement         |
 | D27	|	LED light             |
 | D32	|	Window sensor         |
