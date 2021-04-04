@@ -30,7 +30,7 @@ Then add to the **AndroidManifest.xml** the following:
     
 ```
 
-And in the application add the following service:
+And in the application of **AndroidManifest.xml** add the following service:
 
 ```JAVA
 
