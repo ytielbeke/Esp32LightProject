@@ -46,3 +46,9 @@ sudo nano /etc/mysql/mariadb.conf.d/50-server.cnf
 ```
  
 **change the bind-address to 0.0.0.0**
+
+then restart the mysql server.
+
+```
+systemctl restart mariadb
+```
