@@ -38,3 +38,11 @@ give the user permisions to edit all the tables;
 ```
 GRANT ALL PRIVILEGES ON sensors.* TO 'username'@'localhost';
 ```
+
+# network access:
+edit the mysql configure file to change the access.
+```
+sudo nano /etc/mysql/mariadb.conf.d/50-server.cnf
+```
+ 
+**change the bind-address to 0.0.0.0**
