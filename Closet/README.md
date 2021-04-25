@@ -1,4 +1,4 @@
-# Closet Diagramm and ducumentation
+# Closet Diagram and documentation
 
 The Closet Esp32 has the following pinout
 
